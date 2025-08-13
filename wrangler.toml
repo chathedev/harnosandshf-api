@@ -1,0 +1,14 @@
+name = "harnosandshf-events"
+main = "src/index.js"
+compatibility_date = "2025-08-13"
+
+# If you want Cloudflare to auto-bind a route on deploy, fill in your zone:
+# (You can also set the route later in the dashboard.)
+# Uncomment and edit the two lines below if you want it via wrangler:
+# routes = [
+#   { pattern = "api.harnosandshf.se/api/events*", zone_name = "harnosandshf.se" }
+# ]
+
+[vars]
+# Lock CORS to your site (optional). Remove to allow "*".
+CORS_ORIGIN = "https://harnosandshf.se"
